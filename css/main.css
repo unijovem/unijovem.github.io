@@ -86,6 +86,7 @@ section {
     margin-bottom: 20px;
     margin-top: 20px;
     align: center;
+    border-radius: 25px;
 }
 ul, ol {
 	margin: 0;
@@ -95,7 +96,7 @@ ul li {
 	list-style: none;
 }
 .section {
-	padding: 100px 0;
+	padding: 50px;
 }
 .no-padding {
 	padding: 0;
@@ -185,27 +186,52 @@ ul li {
 	padding:0;
 }
 
+
 /* ------------------------------------------------------------------------------
 	Introduction
 -------------------------------------------------------------------------------*/
 
+.sobre {
+    width: 100%;
+    background-color: #a71717;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
 
-  .intro-content {
+.sobre a {
+    color: white;
+    font-size:15px;
+    font-weight: 300;
+    letter-spacing:1px;
+    line-height:27px;
+}
+
+
+.sobre-content {
 	margin-top: 20px;
 }
-.intro h1 {
+.sobre h1 {
 	font-family: "Dosis", sans-serif;
 	font-size:33px;
 	font-weight: 700;
+    color: black;
 }
-.intro h2 {
+.sobre h2 {
 	font-family: "Dosis", sans-serif;
 	font-size:17px;
 	font-weight: 700;
 	letter-spacing:2px;
 	text-transform:uppercase;
+    color: black;
 }
-.intro p {
+.sobre p {
+    color:white;
 	font-size:15px;
 	font-weight: 300;
 	letter-spacing:1px;
@@ -216,10 +242,9 @@ ul li {
 	Subscribe
 -------------------------------------------------------------------------------*/
 
-	.subscribe {
+.subscribe {
 	width: 100%;
-	background-color: #eee;
-	background-image: url('../images/backgrounds/black.png');
+	background-color: rgb(27,19,19);
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: 50% 0;
@@ -291,7 +316,7 @@ ul li {
 .subscribe-form input:focus {
 	outline: 0;
 }
-.subscribe-form input[type=submit] {
+.subscribe-form button {
 	width: 35%;
 	height: 60px;
 	display: block;
@@ -350,7 +375,8 @@ AIzaSyB6iaN4nRPgVz8vxvt_RPi3tuLEH8TFKw8
 
  --------------------------------------------------------------------------*/
 #map {
-    height: 400px;
+    border-radius: 25px;
+    height: 500px;
     width: 100%;
 }
 

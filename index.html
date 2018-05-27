@@ -21,11 +21,11 @@
 
 <!--header section -->
 <section class="banner" role="banner">
-  <div class="banner-area"> 
+  <div class="banner-area">
     <!-- overlay -->
-    <div class="banner-area-gradient"></div>
+    <div class="banner-area-gradient" border-radius="25px"></div>
     <!-- overlay -->
-    <div class="inner-bg">
+    <div class="inner-bg" border-radius="25px">
       <div class="container">
         <div class="col-md-10 col-md-offset-1">
           <div class="banner-text text-center"> 
@@ -39,38 +39,41 @@
             </ul>
             <!--Countdown -->
             <div id="countdown"></div>
-            <!--Countdown --> 
-            <a href="#subscribes" class="btn">Inscrições em breve</a>
-            <a href="#mapa" class="btn">Como chegar</a>
+            <!--Countdown -->
+              <a href="#sobrenos" class="btn">A Conferência</a>
+              <a href="#mapa" class="btn">Como chegar</a>
+              <!--a href="#subscribes" class="btn">Inscrições em breve</a-->
+
             </p>
           </div>
         </div>
       </div>
     </div>
   </div>
-<!--</section>
+</section>
 
-<section id="intro" class="section intro">
+<section id="sobrenos" class="section sobre">
   <div class="container">
     <div class="row">
       <div class="col-md-4 col-sm-6">
         <div class="intro-content">
-          <h1>We'r forward-thinking agency to build amazing digital products.</h1>
+          <h1>Ele é antes de todas as coisas, e nele tudo subsiste.<p></p> Colossenses 1:17</h1>
         </div>
-        
-        intro 
       </div>
       <div class="col-md-7  col-md-offset-1 col-sm-6">
-        <div class="intro-content">
-          <h2>Welcome to Orly</h2>
-          <p>Orly is a professional, unique and modern HTML template for a creative agency, portfolio or general business. It can be used as your Coming Soon Page while the main site is under construction.</p>
+        <div class="sobre-content">
+          <h2>O nosso Ponto Central</h2>
+          <p>No ano de 2018, a conferência teológica Ponto Central, organizada pela juventude da PibCord (Primeira Igreja Batista
+          no coração de Rio Doce), terá como preletor o Pastor da Primeira Igreja Batista da Jaqueira e Profesor do <a href="http://www.stbnb.com.br/site/">STBNB</a>
+          Marcelo Ximenes.</p>
+            <p>A temática da conferência terá como foco o estudo e aprimoramento dos conhecimentos sobre o papel central, suficiente e supremo
+            de Cristo em nossas vidas. Serão três dias de mergulho teológico e de muito aprendizado, contamos com sua presença nos dias
+            28 à 30/10!</p>
         </div>
-        
-         intro 
       </div>
     </div>
   </div>
-</section>-->
+</section>
 <!--intro section --> 
 <!--subscribe section -->
 
@@ -114,24 +117,34 @@
     </script>
 </section>
 
-<section id="subscribes" class="subscribe">
+<!--section id="subscribes" class="subscribe">
   <div class="container">
     <div class="row">
       <div class="col-sm-12 col-md-5 subscribe-title">
         <h2>Deixe-nos entrar em contato com você e sua igreja!</h2>
       </div>
       
-      <!-- subscribe form -->
-      <div class="col-sm-12 col-md-7 subscribe-form"> 
+      <div class="col-sm-12 col-md-7 subscribe-form">
                
-        <form method="post" action="php/subscribe.php" name="subscribeform" id="subscribeform">
+        <form id="gform" method="POST" class="pure-form pure-form-stacked" data-email="example@email.net"
+              action="https://script.google.com/macros/s/AKfycbx9QN88c5bqbDWXp0Rp7TKH4kRUhyO24ClCoxqMzg/exec">
           <input type="text" name="email" placeholder="Escreva seu contato aqui." id="subemail" />
-          <input type="submit" name="send" value="Me Avise!" id="subsubmit" class="btn2" />
+          <button type="submit" name="send" value="Me Avise!" id="subsubmit">Enviar</button>
         </form>
+
+          <form id="gform" method="POST" class="pure-form pure-form-stacked" data-email="example@email.net"
+                       action="https://script.google.com/macros/s/AKfycbx9QN88c5bqbDWXp0Rp7TKH4kRUhyO24ClCoxqMzg/exec">
+              <button class="button-success pure-button button-xlarge">
+                  <i class="fa fa-paper-plane"></i>&nbsp;Send
+              </button>
+
+              <fieldset class="pure-group">
+                  <label for="text">Name: </label>
+                  <input id="text" name="text" value="What your Mom calls you" />
+              </fieldset>
+      </form>
         
-        <!-- subscribe message -->
         <div id="mesaj"></div>
-        <!-- subscribe message --> 
       </div>
 
 
@@ -144,13 +157,12 @@
         </ul>
       </div>
 
-      <!-- subscribe form --> 
     </div>
 
   </div>
 
   
-</section>
+</section-->
 
 
 <!--subscribe section --> 
@@ -175,12 +187,15 @@
 </footer>
 <!-- Footer section --> 
 
-<!-- JS files--> 
+<!-- JS files-->
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
 <script src="js/bootstrap.min.js"></script> 
 <script src="js/jquery.backstretch.min.js"></script> 
 <script src="js/jquery.countdown.js"></script> 
-<script type="text/javascript" src="js/jquery.subscribe.js"></script> 
+<script type="text/javascript" src="js/jquery.subscribe.js"></script>
+<script data-cfasync="false" type="text/javascript" src="form-submission-handler.js"></script>
 <script src="js/main.js"></script>
+
 </body>
 </html>
