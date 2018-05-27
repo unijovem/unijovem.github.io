@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>test: learn-to-send-email-via-google-script-html-no-server</title>
+
+  <meta name="description" content="Test all HTML form and input elements for learn-to-send-email-via-google-script-html-no-server." />
+  <meta name="author" content="dwyl">
+
+  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/dwyl/learn-to-send-email-via-google-script-html-no-server/master/style.css">
+  <script src="form-submission-handler.js"></script>
+</head>
+
+<body>
+
+  <h1>Test All Form and Input Elements</h1>
+  <p>
+    Here is a form that is meant to include all form and input elements possible
+    on a page. This way we can test out if the form functions as expected. We
+    will populate with default values if possible or using Javascript to
+    simplify testing.
+  </p>
+
+
+  <form id="gform" method="POST" class="pure-form pure-form-stacked" data-email="example@email.net" action="https://script.google.com/macros/s/AKfycbw04YjDizDphXfYFIgdduJeZ2fHjjCFnAXJ5NF1Z4xDLJmEC23b/exec">
+
+    <!--submit/button-->
+    <button class="button-success pure-button button-xlarge">
+      <i class="fa fa-paper-plane"></i>&nbsp;Send
+    </button>
+
+    <!--text-field-->
+    <fieldset class="pure-group">
+      <label for="text">Name: </label>
+      <input id="text" name="text" value="What your Mom calls you" />
+    </fieldset>
+
+    <!--text-area-->
+    <fieldset class="pure-group">
+      <label for="text-area">Message: </label>
+      <textarea id="text-area" name="text-area" rows="10">Tell us what's on your mind...</textarea>
+    </fieldset>
+
+    <!--email-->
+    <fieldset class="pure-group">
+      <label for="email"><em>Your</em> Email Address:</label>
+      <input id="email" name="email" type="email" required value="your.name@email.com" />
+    </fieldset>
+
+    <!--color-->
+    <fieldset class="pure-group">
+      <label for="color">Favourite Color: </label>
+      <input id="color" type="color" name="color" />
+    </fieldset>
+
+    <!--radio button-->
+    <fieldset class="pure-group">
+      <label for="radio">Choose a Programming Language: </label>
+      <input id="radio" type="radio" name="radio" value="js" checked />Javascript
+    </fieldset>
+
+  </form>
+
+  <script data-cfasync="false" type="text/javascript" src="form-submission-handler.js"></script>
+
+</body>
+</html>
