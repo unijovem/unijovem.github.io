@@ -9,11 +9,11 @@ jQuery(document).ready(function() {
 	                  // , "images/backgrounds/2.jpg"
 	                  // , "images/backgrounds/3.jpg"
 	                  ], {duration: 3000, fade: 750});
-					  
-    
-  
+
+
 
 });
+
 
 	// cowntdown function. Set the date by modifying the date in next line (June 1, 2012 00:00:00):
 	var austDay = new Date("September 28, 2018 00:00:00");

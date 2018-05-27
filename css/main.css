@@ -78,7 +78,14 @@ a:hover, a:focus {
 body {
 	font-family: "Roboto", sans-serif;
 	font-weight: 400;
-	color: #6c7279;
+	color: white;
+}
+
+section {
+    color: #6c7279;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    align: center;
 }
 ul, ol {
 	margin: 0;
@@ -335,6 +342,18 @@ ul li {
 	font-weight:400px;
 	color:#b3b3b3;
 }
+
+/*---------------------------------------------------------------------------
+Map
+
+AIzaSyB6iaN4nRPgVz8vxvt_RPi3tuLEH8TFKw8
+
+ --------------------------------------------------------------------------*/
+#map {
+    height: 400px;
+    width: 100%;
+}
+
 /* ------------------------------------------------------------------------------
 	 Footer
 -------------------------------------------------------------------------------*/
