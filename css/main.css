@@ -205,6 +205,12 @@ ul li {
     position: relative;
 }
 
+.sobre iframe{
+	width :300px;
+	height : 300px;
+	margin-right: 10px;
+}
+
 .sobre a {
     color: white;
     font-size:15px;
@@ -252,6 +258,12 @@ ul li {
 	-o-background-size: cover;
 	background-size: cover;
 	position: relative;
+}
+
+.preletor iframe{
+	width :300px;
+	height : 300px;
+	margin-right: 10px;
 }
 
 .preletor a {
