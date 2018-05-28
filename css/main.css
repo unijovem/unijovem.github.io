@@ -251,6 +251,11 @@ iframe{
 	font-weight: 300;
 	letter-spacing:1px;
 	line-height:27px;
+	text-align: justify;
+}
+
+#texto_conferencia{
+	text-align: left;
 }
 
 
@@ -299,6 +304,7 @@ iframe{
 	font-weight: 300;
 	letter-spacing:1px;
 	line-height:27px;
+	text-align: justify;
 }
 
 /* ------------------------------------------------------------------------------
