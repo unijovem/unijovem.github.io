@@ -13,6 +13,12 @@
 @import url(http://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700);
 @import url(http://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700);
 
+@font-face {
+    font-family: futura;
+    src: "fonts/futura.ttf";
+}
+
+
 p {
 	font-size: 14px;
 	line-height: 22.4px;
@@ -76,7 +82,7 @@ a:hover, a:focus {
 	transition: background-color, color, 0.3s;
 }
 body {
-	font-family: "Roboto", sans-serif;
+	font-family: "Helvetica Neue", sans-serif;
 	font-weight: 400;
 	color: white;
 }
@@ -125,7 +131,7 @@ iframe{
 	height: 40%;
 	width: 40%;
 	color: rgba(255, 255, 255, 1);
-	font-family: "Dosis", sans-serif;
+	font-family: futura;
 	font-weight: 700;
 	font-size:22px;
 	letter-spacing:3px;
@@ -153,7 +159,7 @@ iframe{
 	/*margin-top:8%;*/
     margin: 5px;
 	color: #fff;
-	font-family: "Dosis", sans-serif;
+	font-family: futura;
 	font-weight: 100;
 	letter-spacing:12px;
 	font-size:20px;
@@ -191,7 +197,7 @@ iframe{
 	border-bottom:1px solid rgba(255, 255, 255, 0.1);
 }
 .item p {
-	font-family: "Dosis", sans-serif;
+	font-family: futura;
 	text-align:center;
 	margin:0;
 	font-size:27px;
@@ -229,13 +235,13 @@ iframe{
 	margin-top: 20px;
 }
 .red h1 {
-	font-family: "Dosis", sans-serif;
+	font-family: futura;
 	font-size:33px;
 	font-weight: 700;
     color: black;
 }
 .red h2 {
-	font-family: "Dosis", sans-serif;
+	font-family: futura;
 	font-size:17px;
 	font-weight: 700;
 	letter-spacing:2px;
@@ -282,13 +288,13 @@ iframe{
 	margin-top: 20px;
 }
 .black h1 {
-	font-family: "Dosis", sans-serif;
+	font-family: futura;
 	font-size:33px;
 	font-weight: 700;
 	color: white;
 }
 .black h2 {
-	font-family: "Dosis", sans-serif;
+	font-family: futura;
 	font-size:17px;
 	font-weight: 700;
 	letter-spacing:2px;
@@ -348,7 +354,7 @@ iframe{
 }
 .subscribe-title h2 {
 	text-align: center;
-	font-family:"Dosis", sans-serif;
+	font-family:futura;
 	font-weight: 600;
 	font-size: 30px;
 	color: #fff;
