@@ -97,10 +97,8 @@ ul li {
 }
 
 iframe{
-	width :450px;
-	height : 300px;
-	margin-right: 10px;
-	float: left;
+	width :350px;
+	height : 200px;
 }
 
 .section {
@@ -108,9 +106,8 @@ iframe{
 }
 
 .section img {
-	float: left;
-	width :450px;
-	height : 300px;
+	width :350px;
+	height : 200px;
 }
 .no-padding {
 	padding: 0;
