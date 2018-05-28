@@ -95,8 +95,22 @@ ul, ol {
 ul li {
 	list-style: none;
 }
+
+iframe{
+	width :450px;
+	height : 300px;
+	margin-right: 10px;
+	float: left;
+}
+
 .section {
 	padding: 50px;
+}
+
+.section img {
+	float: left;
+	width :450px;
+	height : 300px;
 }
 .no-padding {
 	padding: 0;
@@ -192,7 +206,7 @@ ul li {
 	Introduction
 -------------------------------------------------------------------------------*/
 
-.sobre {
+.red {
     width: 100%;
     background-color: #a71717;
     background-attachment: fixed;
@@ -205,13 +219,7 @@ ul li {
     position: relative;
 }
 
-.sobre iframe{
-	width :300px;
-	height : 300px;
-	margin-right: 10px;
-}
-
-.sobre a {
+.red a {
     color: white;
     font-size:15px;
     font-weight: 300;
@@ -220,16 +228,16 @@ ul li {
 }
 
 
-.sobre-content {
+.red-content {
 	margin-top: 20px;
 }
-.sobre h1 {
+.red h1 {
 	font-family: "Dosis", sans-serif;
 	font-size:33px;
 	font-weight: 700;
     color: black;
 }
-.sobre h2 {
+.red h2 {
 	font-family: "Dosis", sans-serif;
 	font-size:17px;
 	font-weight: 700;
@@ -237,7 +245,7 @@ ul li {
 	text-transform:uppercase;
     color: black;
 }
-.sobre p {
+.red p {
     color:white;
 	font-size:15px;
 	font-weight: 300;
@@ -246,8 +254,7 @@ ul li {
 }
 
 
-
-.preletor {
+.black {
 	width: 100%;
 	background-color: black;
 	background-attachment: fixed;
@@ -260,13 +267,7 @@ ul li {
 	position: relative;
 }
 
-.preletor iframe{
-	width :300px;
-	height : 300px;
-	margin-right: 10px;
-}
-
-.preletor a {
+.black a {
 	color: white;
 	font-size:15px;
 	font-weight: 300;
@@ -275,16 +276,16 @@ ul li {
 }
 
 
-.preletor-content {
+.black-content {
 	margin-top: 20px;
 }
-.preletor h1 {
+.black h1 {
 	font-family: "Dosis", sans-serif;
 	font-size:33px;
 	font-weight: 700;
 	color: white;
 }
-.preletor h2 {
+.black h2 {
 	font-family: "Dosis", sans-serif;
 	font-size:17px;
 	font-weight: 700;
@@ -292,7 +293,7 @@ ul li {
 	text-transform:uppercase;
 	color: white;
 }
-.preletor p {
+.black p {
 	color:white;
 	font-size:15px;
 	font-weight: 300;
