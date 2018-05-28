@@ -10,8 +10,8 @@
 	Typography
 -------------------------------------------------------------------------------*/
 
-@import url(//fonts.googleapis.com/css?family=Dosis:300,400,500,600,700);
-@import url(//fonts.googleapis.com/css?family=Roboto:300,400,500,600,700);
+@import url(http://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700);
 
 p {
 	font-size: 14px;
@@ -339,6 +339,12 @@ ul li {
 	-o-transition: all 0.125s ease-in-out 0s;
 	-ms-transition: all 0.125s ease-in-out 0s;
 	float: left;
+}
+
+#contatos{
+    margin-top: 5px;
+    line-height:20px;
+    color : #a71717;
 }
 /*.subscribe-form input[type=submit]:hover {
 	background-color: #a71717;
