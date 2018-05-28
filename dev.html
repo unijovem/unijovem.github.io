@@ -1,0 +1,230 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ponto Central</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+<!--header section -->
+<section class="banner" role="banner" border-radius="25px">
+    <div class="banner-area" border-radius="25px">
+        <!-- overlay -->
+        <div class="banner-area-gradient" border-radius="25px"></div>
+        <!-- overlay -->
+        <div class="inner-bg" border-radius="25px">
+            <div class="container">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="banner-text text-center">
+
+                        <img class="logo" src="images/backgrounds/logo6.png"></img>
+
+                        <ul>
+                            <li></li><h1>Conferência</h1></li>
+                            <li><h1>Teológica</h1></li>
+                        </ul>
+                        <!--Countdown -->
+                        <div id="countdown"></div>
+                        <!--Countdown -->
+                        <a href="#sobrenos" class="btn">A Conferência</a>
+                        <a href="#mapa" class="btn">Como chegar</a>
+                        <a href="#subscribes" class="btn">Contato</a>
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="sobrenos" class="section sobre">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-6">
+                <div class="intro-content">
+                    <h1>Ele é antes de todas as coisas, e nele tudo subsiste.<p></p> Colossenses 1:17</h1>
+                </div>
+            </div>
+            <div class="col-md-7  col-md-offset-1 col-sm-6">
+                <div class="sobre-content">
+                    <h2>O nosso Ponto Central</h2>
+                    <p>No ano de 2018, a conferência teológica Ponto Central, organizada pela juventude da PibCord (Primeira Igreja Batista
+                        no coração de Rio Doce), terá como preletor o Pastor da Primeira Igreja Batista da Jaqueira e Professor do <a href="http://www.stbnb.com.br/site/">STBNB</a>, Marcelo Ximenes.</p>
+                    <p>A temática da conferência terá como foco o estudo e aprimoramento dos conhecimentos sobre o papel central, suficiente e supremo
+                        de Cristo em nossas vidas. Serão três dias de mergulho teológico e de muito aprendizado. Contamos com sua presença nos dias
+                        28 à 30 de setembro!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--intro section -->
+
+<!--preletor section-->
+
+<section id="preletores" class="section preletor">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-6">
+                <div class="intro-content">
+                    <iframe width="460" height="300" src="https://www.youtube.com/embed/92GHdmnDiFE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col-md-7  col-md-offset-1 col-sm-6">
+                <div class="sobre-content">
+                    <h2>Pr. Marcelo Ximenes</h2>
+                    <p>
+                        Lorem ipsum vestibulum ac varius etiam aptent molestie eu tempor ante velit, integer potenti venenatis hac netus sodales curabitur enim blandit. donec laoreet ut phasellus hendrerit eleifend sapien dolor, ligula velit sodales ac nisl commodo arcu tellus, amet blandit enim torquent risus pulvinar. odio facilisis porta per purus felis vitae condimentum elit posuere.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--end of preletores section-->
+
+
+<!--subscribe section -->
+
+<section id="mapa">
+    <div id="map"></div>
+    <script>
+        function initMap() {
+            var pibcord = {lat: -7.963240000000001, lng: -34.84198200000003};
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 17,
+                center: pibcord
+            });
+
+            var contentString = '<div id="content">'+
+                '<div id="siteNotice">'+
+                '</div>'+
+                '<div id="bodyContent">'+
+                '<div style="display: inline-block; overflow: auto; max-height: 654px; max-width: 654px;"><div dir="ltr" style="" jstcache="0"><div jstcache="33" class="poi-info-window gm-style"> <div jstcache="2"> <div jstcache="3" class="title full-width" jsan="7.title,7.full-width">1a Igreja Batista de Rio Doce</div> <div class="address"> <div jstcache="4" jsinstance="0" class="address-line full-width" jsan="7.address-line,7.full-width">Av. Cel. Frederico Lundgren, 601 - Jardim Atlântico</div><div jstcache="4" jsinstance="1" class="address-line full-width" jsan="7.address-line,7.full-width">Olinda - PE</div><div jstcache="4" jsinstance="2" class="address-line full-width" jsan="7.address-line,7.full-width">53040-150</div><div jstcache="4" jsinstance="*3" class="address-line full-width" jsan="7.address-line,7.full-width">Brasil</div> </div> </div> <div jstcache="5" style="display:none"></div> <div class="view-link"> <a target="_blank" jstcache="6" href="https://maps.google.com/maps?ll=-7.963012,-34.843531&amp;z=17&amp;t=m&amp;hl=pt-BR&amp;gl=US&amp;mapclient=apiv3&amp;cid=3969662453345305085"> <span>Visualize no Google Maps</span> </a> </div> </div></div></div>'
+            '</div>'+
+            '</div>';
+
+            var infowindow = new google.maps.InfoWindow({
+                content: contentString,
+                maxWidth: 200
+            });
+
+
+            var marker = new google.maps.Marker({
+                position: pibcord,
+                map: map,
+                title: 'PibCord'
+            });
+            marker.addListener('click', function() {
+                infowindow.open(map, marker);
+            });
+
+        }
+    </script>
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyChB0Ju4WrTMPKOWeEyP1I2QI4EXMqo-po&callback=initMap">
+    </script>
+</section>
+
+<section id="subscribes" class="subscribe">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-5 subscribe-title">
+                <h2>Deixe-nos entrar em contato com você e sua igreja!</h2>
+            </div>
+
+            <!--div class="col-sm-12 col-md-7 subscribe-form">
+
+              <form id="gform" method="POST" class="pure-form pure-form-stacked" data-email="example@email.net"
+                    action="https://script.google.com/macros/s/AKfycbx9QN88c5bqbDWXp0Rp7TKH4kRUhyO24ClCoxqMzg/exec">
+                <input type="text" name="email" placeholder="Escreva seu contato aqui." id="subemail" />
+                <button type="submit" name="send" value="Me Avise!" id="subsubmit">Enviar</button>
+              </form>
+
+                <form id="gform" method="POST" class="pure-form pure-form-stacked" data-email="example@email.net"
+                             action="https://script.google.com/macros/s/AKfycbx9QN88c5bqbDWXp0Rp7TKH4kRUhyO24ClCoxqMzg/exec">
+                    <button class="button-success pure-button button-xlarge">
+                        <i class="fa fa-paper-plane"></i>&nbsp;Send
+                    </button>
+
+                    <fieldset class="pure-group">
+                        <label for="text">Name: </label>
+                        <input id="text" name="text" value="What your Mom calls you" />
+                    </fieldset>
+            </form>
+
+              <div id="mesaj"></div>
+            </div-->
+
+
+
+            <div class="footer-col col-md-7" align="center">
+                <p color="#a71717">Pelos Contatos:</p>
+
+                <p id="contatos">81 98679-9416 (Suzeclay)</p>
+                <p id="contatos">81 99735-0530 (Kattya)</p>
+
+                <p> Ou pelas redes sociais </p>
+                <ul  align="center" class="footer-share">
+                    <li><a href="https://www.facebook.com/UnijovemPibcord/"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/unjpibcord/"><i class="fa fa-instagram"></i></a></li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+
+
+</section>
+
+
+<!--subscribe section -->
+
+<!-- Footer section -->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+
+            <div class="footer-col col-md-5">
+                <p  align="left"> © 2018 The Cup
+                    <img height="13" width="15" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALASURBVGhD7ZpJyE1hHIevKcrCmEIosjKtiJJkIaxkWMiQxIJMC9MKWSCFZCEkUpRMC2QjKWRImTYSKUSZLYQQz/OvW9JXdM6577kn31PP4nfq+//ft3O/8573vbfWyn9OO+yLY3AGrsQdeAyv4jM8jE1NL3yJP//iZWxq5qMDfY9X0LuwHVegd2c0ere8a03NQXQiSyJVmCfoRIZEqij90Um8wjZeqCrz0Ikcj1RhDqATWRapwjxGJzIsUkXph07iDbb1QlWZg07kdKQmpAcO/AePoBPZ/Nu1lhyAnTAZY/E+Orii/YqHsBs2FCfxHW36Af0nLkoXzG9o7VvYARvGPbTRJmzEwtYb76I9FnuhEXRGG3zBwdjS57wI16B9jmJD6II2SOUZbAiuASfRz3O92Z+f8zy+Rmt+xAfoY7vhvEObdo1UDKvRmlsjJaL++B0aqRh2oTWXR0rEebTpxEjFcAKtOS1SIupvswsiFcN1tOaoSInYiDZdH6kYPEGxpvv2ZCxCm+6NlB8PHFzVfWtIevgwBZ3I2Uj56YPWex4pISPQxrcj5WckWu9GpIT0RBu7iBWBTyrrueAm5zPavGOkfCxFa7mWJOcR2nxQpHy4mltrbaTEXEKbj4uUDw+urTU7UmJ8zbb5rEj5uIjWGh8pMdvQ5qsi5eMhWst9TnL8bsPmOyPl4xNaK+nhQ53paHNf9vLQHa3zNlIJ+H2GA7gWKTtuBazjXr0U6ieITyNlZxJax61BKbTHH+jLXp6jULcCTmR/pJJ4gQ7CY5ysbEBruDUojZvoIHzpy8o+tMbCSCVxCh3E1EjZOIfWmBypJHajg/ClLyt30BrDI5XEOnQQWyJlo36e5el+acxFB5H11wqu5P69W4JSmYAOxMVsZgY9qPbvfdcqFQ+dHUheL2Dp+BMMT1OyugfzPL5baUJqtV9tMR8FwWnlaAAAAABJRU5ErkJggg==">
+                    @ PibCord</p>
+                <p align="left"> Made with by <a href="http://www.designstub.com/">Designstub</a></p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- footer top -->
+
+</footer>
+<!-- Footer section -->
+
+<!-- JS files-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.backstretch.min.js"></script>
+<script src="js/jquery.countdown.js"></script>
+<script type="text/javascript" src="js/jquery.subscribe.js"></script>
+<script data-cfasync="false" type="text/javascript" src="form-submission-handler.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>

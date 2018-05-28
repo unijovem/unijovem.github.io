@@ -239,6 +239,55 @@ ul li {
 	line-height:27px;
 }
 
+
+
+.preletor {
+	width: 100%;
+	background-color: black;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: 50% 0;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	position: relative;
+}
+
+.preletor a {
+	color: white;
+	font-size:15px;
+	font-weight: 300;
+	letter-spacing:1px;
+	line-height:27px;
+}
+
+
+.preletor-content {
+	margin-top: 20px;
+}
+.preletor h1 {
+	font-family: "Dosis", sans-serif;
+	font-size:33px;
+	font-weight: 700;
+	color: white;
+}
+.preletor h2 {
+	font-family: "Dosis", sans-serif;
+	font-size:17px;
+	font-weight: 700;
+	letter-spacing:2px;
+	text-transform:uppercase;
+	color: white;
+}
+.preletor p {
+	color:white;
+	font-size:15px;
+	font-weight: 300;
+	letter-spacing:1px;
+	line-height:27px;
+}
+
 /* ------------------------------------------------------------------------------
 	Subscribe
 -------------------------------------------------------------------------------*/
